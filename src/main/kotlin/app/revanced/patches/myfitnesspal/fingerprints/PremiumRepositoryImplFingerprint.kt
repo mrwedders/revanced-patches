@@ -44,36 +44,3 @@ object PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint :
                                         ) && methodDef.name == "isPremiumFeatureAvailable"
                                 }
                 )
-
-object PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint :
-                MethodFingerprint(
-                                returnType = "Z",
-                                accessFlags = 1,
-                                customFingerprint = { methodDef, _ ->
-                                        methodDef.definingClass.endsWith(
-                                                        "PremiumRepositoryImpl;"
-                                        ) && methodDef.name == "isPremiumFeatureAvailableById"
-                                }
-                )
-
-object PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint :
-                MethodFingerprint(
-                                returnType = "Z",
-                                accessFlags = 1,
-                                customFingerprint = { methodDef, _ ->
-                                        methodDef.definingClass.endsWith(
-                                                        "PremiumRepositoryImpl;"
-                                        ) && methodDef.name == "isPremiumFeatureSubscribed"
-                                }
-                )
-
-object PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint :
-                MethodFingerprint(
-                                returnType = "Z",
-                                accessFlags = 1,
-                                customFingerprint = { methodDef, _ ->
-                                        methodDef.definingClass.endsWith(
-                                                        "PremiumRepositoryImpl;"
-                                        ) && methodDef.name == "isPremiumFeatureSubscribedById"
-                                }
-                )

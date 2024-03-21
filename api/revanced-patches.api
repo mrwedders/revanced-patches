@@ -380,46 +380,24 @@ public final class app/revanced/patches/myexpenses/misc/pro/UnlockProPatch : app
 
 public final class app/revanced/patches/myfitnesspal/PremiumPatch : app/revanced/patcher/patch/BytecodePatch {
 	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/PremiumPatch;
-public final class app/revanced/patches/myfitnesspal/ads/HideAdsPatch : app/revanced/patcher/patch/BytecodePatch {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/ads/HideAdsPatch;
-public final class app/revanced/patches/myfitnesspal/PremiumPatch : app/revanced/patcher/patch/BytecodePatch {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/PremiumPatch;
 	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
 	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
 }
 
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_getFeatureAvailabilityFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_getFeatureAvailabilityFingerprint;
+public final class app/revanced/patches/myfitnesspal/ads/HideAdsPatch : app/revanced/patcher/patch/BytecodePatch {
+	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/ads/HideAdsPatch;
+	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
+	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
 }
 
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isFeatureSubscribedFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isFeatureSubscribedFingerprint;
-}
-
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint;
-}
-
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint;
-}
-
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint;
-}
-
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint;
-}
-
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumUserFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumUserFingerprint;
 public final class app/revanced/patches/myfitnesspal/ads/fingerprints/IsPremiumUseCaseImplFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
 	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/ads/fingerprints/IsPremiumUseCaseImplFingerprint;
 }
 
 public final class app/revanced/patches/myfitnesspal/ads/fingerprints/MainActivityNavigateToNativePremiumUpsellFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
 	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/ads/fingerprints/MainActivityNavigateToNativePremiumUpsellFingerprint;
+}
+
 public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_getFeatureAvailabilityFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
 	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_getFeatureAvailabilityFingerprint;
 }
@@ -428,20 +406,8 @@ public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumReposit
 	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isFeatureSubscribedFingerprint;
 }
 
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint;
-}
-
 public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
 	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint;
-}
-
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint;
-}
-
-public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
-	public static final field INSTANCE Lapp/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint;
 }
 
 public final class app/revanced/patches/myfitnesspal/fingerprints/PremiumRepositoryImpl_isPremiumUserFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {

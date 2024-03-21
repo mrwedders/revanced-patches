@@ -4,9 +4,6 @@ import app.revanced.patches.myfitnesspal.fingerprints.PremiumRepositoryImpl_isPr
 import app.revanced.patches.myfitnesspal.fingerprints.PremiumRepositoryImpl_getFeatureAvailabilityFingerprint
 import app.revanced.patches.myfitnesspal.fingerprints.PremiumRepositoryImpl_isFeatureSubscribedFingerprint
 import app.revanced.patches.myfitnesspal.fingerprints.PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint
-import app.revanced.patches.myfitnesspal.fingerprints.PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint
-import app.revanced.patches.myfitnesspal.fingerprints.PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint
-import app.revanced.patches.myfitnesspal.fingerprints.PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint
 
 import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.BytecodePatch
@@ -27,10 +24,7 @@ object PremiumPatch : BytecodePatch(setOf(
     PremiumRepositoryImpl_isPremiumUserFingerprint,
     PremiumRepositoryImpl_getFeatureAvailabilityFingerprint,
     PremiumRepositoryImpl_isFeatureSubscribedFingerprint,
-    PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint,
-    PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint,
-    PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint,
-    PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint
+    PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint
 )) {
     override fun execute(context: BytecodeContext) {
 
@@ -38,12 +32,9 @@ object PremiumPatch : BytecodePatch(setOf(
         val simpleBools = setOf(
             PremiumRepositoryImpl_isPremiumUserFingerprint,
             PremiumRepositoryImpl_isFeatureSubscribedFingerprint,
-            PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint,
-            PremiumRepositoryImpl_isPremiumFeatureSubscribedFingerprint,
-            PremiumRepositoryImpl_isPremiumFeatureSubscribedByIdFingerprint,
-            PremiumRepositoryImpl_isPremiumFeatureAvailableByIdFingerprint
+            PremiumRepositoryImpl_isPremiumFeatureAvailableFingerprint
         )
-        for (item in simpleBools) {
+        for ((index, item) in simpleBools.withIndex()) {
             item.result?.mutableMethod?.apply {
                 replaceInstructions(
                     0,
@@ -52,7 +43,7 @@ object PremiumPatch : BytecodePatch(setOf(
                         return v0
                     """
                 )
-            } ?: throw PatchException("PremiumRepositoryImpl fingerprint not found")
+            } ?: throw PatchException("PremiumRepositoryImpl fingerprint ($index) not found")
         }
 
         // this one needs to return an enum
