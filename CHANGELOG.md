@@ -1,3 +1,382 @@
+# [4.3.0](https://github.com/ReVanced/revanced-patches/compare/v4.2.0...v4.3.0) (2024-03-02)
+
+
+### Bug Fixes
+
+* Compile DEX without debugging information ([f5df957](https://github.com/ReVanced/revanced-patches/commit/f5df9578669f71a67411bc93a25a7e8da43610d0))
+* **Override certificate pinning:** Always overwrite with a generic network security configuration ([2a842a1](https://github.com/ReVanced/revanced-patches/commit/2a842a1e14e1993eb028ae0bd1a93e227bb929a6))
+* Remove extra space from patch description ([#2780](https://github.com/ReVanced/revanced-patches/issues/2780)) ([96a3f35](https://github.com/ReVanced/revanced-patches/commit/96a3f359266ff8d16ae9ee3c6ce2f16ce67a3b93))
+* Use deprecated members to ensure backwards compatibility ([083bd40](https://github.com/ReVanced/revanced-patches/commit/083bd4009231b9612394b4496ca1d329947d6577))
+* **YouTube - Spoof app version:** Remove broken versions ([#2776](https://github.com/ReVanced/revanced-patches/issues/2776)) ([9466d97](https://github.com/ReVanced/revanced-patches/commit/9466d973c6d7a2891e3fa9f283107b64399152ea))
+* **YouTube - Spoof signature:** Fix tracking such as history or watch time ([bcd8b48](https://github.com/ReVanced/revanced-patches/commit/bcd8b48e70693dac1bfcc0bf4971d6b526065b59))
+
+
+### Features
+
+* **OpeningHours:** Add `Fix crash` patch ([#2697](https://github.com/ReVanced/revanced-patches/issues/2697)) ([0d011b8](https://github.com/ReVanced/revanced-patches/commit/0d011b876ecf05031a7daa54ab7e6d3506728a47))
+* Remove unnecessary description from patch ([1a89dd9](https://github.com/ReVanced/revanced-patches/commit/1a89dd9f8cd0c614055a9da97338839b77a25ed1))
+* **Sync for Reddit:** Add `Fix /s/ links` patch ([f15ef3f](https://github.com/ReVanced/revanced-patches/commit/f15ef3f63460254236185f8e22c9395db4db9465))
+* **Twitter - Unlock downloads:** Unlock GIF downloads ([d0f91c8](https://github.com/ReVanced/revanced-patches/commit/d0f91c8550592723e1252e1af2971b508591dd59))
+* **VSCO - Unlock pro:** Constrain to last working version ([6dd4a7c](https://github.com/ReVanced/revanced-patches/commit/6dd4a7c29e48c3bc517bbdd7ed160624c36c2333))
+* **X:** Add `Open links as query` patch ([#2730](https://github.com/ReVanced/revanced-patches/issues/2730)) ([ba75a51](https://github.com/ReVanced/revanced-patches/commit/ba75a51b71dbb9157db230b3e97a90361019fe30))
+* **YouTube - Change header:** Improve patch option description ([3b8bc08](https://github.com/ReVanced/revanced-patches/commit/3b8bc08d4ed3a3a0f96d2f476e5059840b9f9d9b))
+* **YouTube - Change start page:** Add more start pages ([cc1d9b7](https://github.com/ReVanced/revanced-patches/commit/cc1d9b743633c619fb6acc428e884c1c9b53e10b))
+* **YouTube - Custom branding:** Improve patch option description ([e27f56c](https://github.com/ReVanced/revanced-patches/commit/e27f56c8a34d41167b290f47280276c1c6003876))
+* **YouTube - Spoof app version:** Add target versions ([#2787](https://github.com/ReVanced/revanced-patches/issues/2787)) ([83a7bd8](https://github.com/ReVanced/revanced-patches/commit/83a7bd8d69e62623fc4d2ba73d9fb49e92751d89))
+* **YouTube:** Reorganize settings menu ([#2737](https://github.com/ReVanced/revanced-patches/issues/2737)) ([36132df](https://github.com/ReVanced/revanced-patches/commit/36132df4be6a04c08b6f3dd79de1bcea93a80fb8))
+
+# [4.3.0-dev.13](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.12...v4.3.0-dev.13) (2024-03-02)
+
+
+### Features
+
+* **YouTube:** Reorganize settings menu ([#2737](https://github.com/ReVanced/revanced-patches/issues/2737)) ([36132df](https://github.com/ReVanced/revanced-patches/commit/36132df4be6a04c08b6f3dd79de1bcea93a80fb8))
+
+# [4.3.0-dev.12](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.11...v4.3.0-dev.12) (2024-03-02)
+
+
+### Features
+
+* **YouTube - Spoof app version:** Add target versions ([#2787](https://github.com/ReVanced/revanced-patches/issues/2787)) ([83a7bd8](https://github.com/ReVanced/revanced-patches/commit/83a7bd8d69e62623fc4d2ba73d9fb49e92751d89))
+
+# [4.3.0-dev.11](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.10...v4.3.0-dev.11) (2024-03-02)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof signature:** Fix tracking such as history or watch time ([bcd8b48](https://github.com/ReVanced/revanced-patches/commit/bcd8b48e70693dac1bfcc0bf4971d6b526065b59))
+
+# [4.3.0-dev.10](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.9...v4.3.0-dev.10) (2024-02-29)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof app version:** Remove broken versions ([#2776](https://github.com/ReVanced/revanced-patches/issues/2776)) ([9466d97](https://github.com/ReVanced/revanced-patches/commit/9466d973c6d7a2891e3fa9f283107b64399152ea))
+
+# [4.3.0-dev.9](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.8...v4.3.0-dev.9) (2024-02-28)
+
+
+### Bug Fixes
+
+* **Override certificate pinning:** Always overwrite with a generic network security configuration ([2a842a1](https://github.com/ReVanced/revanced-patches/commit/2a842a1e14e1993eb028ae0bd1a93e227bb929a6))
+
+# [4.3.0-dev.8](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.7...v4.3.0-dev.8) (2024-02-28)
+
+
+### Bug Fixes
+
+* Remove extra space from patch description ([#2780](https://github.com/ReVanced/revanced-patches/issues/2780)) ([96a3f35](https://github.com/ReVanced/revanced-patches/commit/96a3f359266ff8d16ae9ee3c6ce2f16ce67a3b93))
+
+# [4.3.0-dev.7](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.6...v4.3.0-dev.7) (2024-02-26)
+
+
+### Features
+
+* **OpeningHours:** Add `Fix crash` patch ([#2697](https://github.com/ReVanced/revanced-patches/issues/2697)) ([0d011b8](https://github.com/ReVanced/revanced-patches/commit/0d011b876ecf05031a7daa54ab7e6d3506728a47))
+
+# [4.3.0-dev.6](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.5...v4.3.0-dev.6) (2024-02-25)
+
+
+### Features
+
+* **VSCO - Unlock pro:** Constrain to last working version ([6dd4a7c](https://github.com/ReVanced/revanced-patches/commit/6dd4a7c29e48c3bc517bbdd7ed160624c36c2333))
+
+# [4.3.0-dev.5](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.4...v4.3.0-dev.5) (2024-02-25)
+
+
+### Features
+
+* Remove unnecessary description from patch ([1a89dd9](https://github.com/ReVanced/revanced-patches/commit/1a89dd9f8cd0c614055a9da97338839b77a25ed1))
+* **Twitter - Unlock downloads:** Unlock GIF downloads ([d0f91c8](https://github.com/ReVanced/revanced-patches/commit/d0f91c8550592723e1252e1af2971b508591dd59))
+
+# [4.3.0-dev.4](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.3...v4.3.0-dev.4) (2024-02-22)
+
+
+### Bug Fixes
+
+* Compile DEX without debugging information ([f5df957](https://github.com/ReVanced/revanced-patches/commit/f5df9578669f71a67411bc93a25a7e8da43610d0))
+* Use deprecated members to ensure backwards compatibility ([083bd40](https://github.com/ReVanced/revanced-patches/commit/083bd4009231b9612394b4496ca1d329947d6577))
+
+
+### Features
+
+* **X:** Add `Open links as query` patch ([#2730](https://github.com/ReVanced/revanced-patches/issues/2730)) ([ba75a51](https://github.com/ReVanced/revanced-patches/commit/ba75a51b71dbb9157db230b3e97a90361019fe30))
+
+# [4.3.0-dev.3](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.2...v4.3.0-dev.3) (2024-02-20)
+
+
+### Features
+
+* **YouTube - Change header:** Improve patch option description ([3b8bc08](https://github.com/ReVanced/revanced-patches/commit/3b8bc08d4ed3a3a0f96d2f476e5059840b9f9d9b))
+* **YouTube - Custom branding:** Improve patch option description ([e27f56c](https://github.com/ReVanced/revanced-patches/commit/e27f56c8a34d41167b290f47280276c1c6003876))
+
+# [4.3.0-dev.2](https://github.com/ReVanced/revanced-patches/compare/v4.3.0-dev.1...v4.3.0-dev.2) (2024-02-09)
+
+
+### Features
+
+* **Sync for Reddit:** Add `Fix /s/ links` patch ([f15ef3f](https://github.com/ReVanced/revanced-patches/commit/f15ef3f63460254236185f8e22c9395db4db9465))
+
+# [4.3.0-dev.1](https://github.com/ReVanced/revanced-patches/compare/v4.2.0...v4.3.0-dev.1) (2024-02-09)
+
+
+### Features
+
+* **YouTube - Change start page:** Add more start pages ([cc1d9b7](https://github.com/ReVanced/revanced-patches/commit/cc1d9b743633c619fb6acc428e884c1c9b53e10b))
+
+# [4.2.0](https://github.com/ReVanced/revanced-patches/compare/v4.1.0...v4.2.0) (2024-02-08)
+
+
+### Bug Fixes
+
+* **Infinity for Reddit - Unlock subscription:** Do not crash by patching billing client ([7d76e2e](https://github.com/ReVanced/revanced-patches/commit/7d76e2e43c69b2b75f40a15a9147d041c77cbcd9))
+
+
+### Features
+
+* **X:** Add `Hide view count` patch ([bf064ec](https://github.com/ReVanced/revanced-patches/commit/bf064ecc1d5de8b592d14d34acfa1a4314c374ba))
+* **X:** Add `Unlock downloads` patch ([2c20844](https://github.com/ReVanced/revanced-patches/commit/2c20844eaae698f185a9d321e2c70bde4b485cee))
+
+# [4.2.0-dev.1](https://github.com/ReVanced/revanced-patches/compare/v4.1.1-dev.1...v4.2.0-dev.1) (2024-02-08)
+
+
+### Features
+
+* **X:** Add `Hide view count` patch ([bf064ec](https://github.com/ReVanced/revanced-patches/commit/bf064ecc1d5de8b592d14d34acfa1a4314c374ba))
+* **X:** Add `Unlock downloads` patch ([2c20844](https://github.com/ReVanced/revanced-patches/commit/2c20844eaae698f185a9d321e2c70bde4b485cee))
+
+## [4.1.1-dev.1](https://github.com/ReVanced/revanced-patches/compare/v4.1.0...v4.1.1-dev.1) (2024-02-07)
+
+
+### Bug Fixes
+
+* **Infinity for Reddit - Unlock subscription:** Do not crash by patching billing client ([7d76e2e](https://github.com/ReVanced/revanced-patches/commit/7d76e2e43c69b2b75f40a15a9147d041c77cbcd9))
+
+# [4.1.0](https://github.com/ReVanced/revanced-patches/compare/v4.0.2...v4.1.0) (2024-02-05)
+
+
+### Bug Fixes
+
+* **Infinity for Reddit - Unlock subscription:** Restore functionality on v7.0.0 ([bf19af9](https://github.com/ReVanced/revanced-patches/commit/bf19af99cb522f9027a4b3ae42d6258ac71758e5))
+* **YouTube:** Correctly show channel page on tablet devices ([#2656](https://github.com/ReVanced/revanced-patches/issues/2656)) ([c7c9700](https://github.com/ReVanced/revanced-patches/commit/c7c9700d93caeae105916d33376670f525276fac))
+
+
+### Features
+
+* **YouTube - Custom filter:** Custom filtering of the protocol buffer ([#2682](https://github.com/ReVanced/revanced-patches/issues/2682)) ([872a5b6](https://github.com/ReVanced/revanced-patches/commit/872a5b6d8969ab1569cd57ece3c400c3741049be))
+* **YouTube:** Support version `19.04.37` ([#2687](https://github.com/ReVanced/revanced-patches/issues/2687)) ([c23e023](https://github.com/ReVanced/revanced-patches/commit/c23e0233cf5c28d354132443d227b42ddc4a3dad))
+
+# [4.1.0-dev.2](https://github.com/ReVanced/revanced-patches/compare/v4.1.0-dev.1...v4.1.0-dev.2) (2024-02-04)
+
+
+### Features
+
+* **YouTube:** Support version `19.04.37` ([#2687](https://github.com/ReVanced/revanced-patches/issues/2687)) ([c23e023](https://github.com/ReVanced/revanced-patches/commit/c23e0233cf5c28d354132443d227b42ddc4a3dad))
+
+# [4.1.0-dev.1](https://github.com/ReVanced/revanced-patches/compare/v4.0.3-dev.2...v4.1.0-dev.1) (2024-02-02)
+
+
+### Features
+
+* **YouTube - Custom filter:** Custom filtering of the protocol buffer ([#2682](https://github.com/ReVanced/revanced-patches/issues/2682)) ([872a5b6](https://github.com/ReVanced/revanced-patches/commit/872a5b6d8969ab1569cd57ece3c400c3741049be))
+
+## [4.0.3-dev.2](https://github.com/ReVanced/revanced-patches/compare/v4.0.3-dev.1...v4.0.3-dev.2) (2024-02-01)
+
+
+### Bug Fixes
+
+* **Infinity for Reddit - Unlock subscription:** Restore functionality on v7.0.0 ([bf19af9](https://github.com/ReVanced/revanced-patches/commit/bf19af99cb522f9027a4b3ae42d6258ac71758e5))
+
+## [4.0.3-dev.1](https://github.com/ReVanced/revanced-patches/compare/v4.0.2...v4.0.3-dev.1) (2024-01-28)
+
+
+### Bug Fixes
+
+* **YouTube:** Correctly show channel page on tablet devices ([#2656](https://github.com/ReVanced/revanced-patches/issues/2656)) ([c7c9700](https://github.com/ReVanced/revanced-patches/commit/c7c9700d93caeae105916d33376670f525276fac))
+
+## [4.0.2](https://github.com/ReVanced/revanced-patches/compare/v4.0.1...v4.0.2) (2024-01-28)
+
+
+### Bug Fixes
+
+* **Twitch:** Correct patch resources to fix build ([1b63898](https://github.com/ReVanced/revanced-patches/commit/1b63898413b24693b0b737df29adcf9142963dfa))
+* **YouTube:** Do not crash on startup for root installs ([#2655](https://github.com/ReVanced/revanced-patches/issues/2655)) ([02abace](https://github.com/ReVanced/revanced-patches/commit/02abace127c9ef906c06ded9135cbba2871bd1e6))
+
+## [4.0.2-dev.2](https://github.com/ReVanced/revanced-patches/compare/v4.0.2-dev.1...v4.0.2-dev.2) (2024-01-28)
+
+
+### Bug Fixes
+
+* **YouTube:** Do not crash on startup for root installs ([#2655](https://github.com/ReVanced/revanced-patches/issues/2655)) ([02abace](https://github.com/ReVanced/revanced-patches/commit/02abace127c9ef906c06ded9135cbba2871bd1e6))
+
+## [4.0.2-dev.1](https://github.com/ReVanced/revanced-patches/compare/v4.0.1...v4.0.2-dev.1) (2024-01-27)
+
+
+### Bug Fixes
+
+* **Twitch:** Correct patch resources to fix build ([1b63898](https://github.com/ReVanced/revanced-patches/commit/1b63898413b24693b0b737df29adcf9142963dfa))
+
+## [4.0.1](https://github.com/ReVanced/revanced-patches/compare/v4.0.0...v4.0.1) (2024-01-27)
+
+
+### Bug Fixes
+
+* Indent patch option description correctly ([bd86ef6](https://github.com/ReVanced/revanced-patches/commit/bd86ef6fc2344fa049077e9aa4bcd5d7ffa4c7f9))
+* Only set Android key if not null to prevent build errors ([1181b0b](https://github.com/ReVanced/revanced-patches/commit/1181b0bca24c524c376f7ea26ae02ee771645e6b))
+
+## [4.0.1-dev.2](https://github.com/ReVanced/revanced-patches/compare/v4.0.1-dev.1...v4.0.1-dev.2) (2024-01-27)
+
+
+### Bug Fixes
+
+* Only set Android key if not null to prevent build errors ([1181b0b](https://github.com/ReVanced/revanced-patches/commit/1181b0bca24c524c376f7ea26ae02ee771645e6b))
+
+## [4.0.1-dev.1](https://github.com/ReVanced/revanced-patches/compare/v4.0.0...v4.0.1-dev.1) (2024-01-27)
+
+
+### Bug Fixes
+
+* Indent patch option description correctly ([bd86ef6](https://github.com/ReVanced/revanced-patches/commit/bd86ef6fc2344fa049077e9aa4bcd5d7ffa4c7f9))
+
+# [4.0.0](https://github.com/ReVanced/revanced-patches/compare/v3.2.0...v4.0.0) (2024-01-27)
+
+
+### Bug Fixes
+
+* Use new integrations patch path ([51e2f3b](https://github.com/ReVanced/revanced-patches/commit/51e2f3b476b49460e2f3fc2b5f302a3a72d7963f))
+* **YouTube - Change header:** Improve patch descriptions ([#2581](https://github.com/ReVanced/revanced-patches/issues/2581)) ([43a5677](https://github.com/ReVanced/revanced-patches/commit/43a5677397380f14a049ae95532fd5096b94c938))
+* **YouTube - Enable slide to seek:** Change patch default to excluded and add description disclaimer ([#2610](https://github.com/ReVanced/revanced-patches/issues/2610)) ([2fdc4c2](https://github.com/ReVanced/revanced-patches/commit/2fdc4c23b5f39153ad71071359274c39129d691f))
+* **YouTube:** Shorten setting titles to fit on screen ([#2579](https://github.com/ReVanced/revanced-patches/issues/2579)) ([b2a5dd3](https://github.com/ReVanced/revanced-patches/commit/b2a5dd3efc39ae8a42159858b9c00b5b2f8655a4))
+
+
+### Code Refactoring
+
+* Fix package and code structure ([#2541](https://github.com/ReVanced/revanced-patches/issues/2541)) ([a08457e](https://github.com/ReVanced/revanced-patches/commit/a08457e406f4b2e37458a4835c11d370a02d2ce6))
+
+
+### Features
+
+* **Change package name:** Mention caveat of the patch in the description ([427b81a](https://github.com/ReVanced/revanced-patches/commit/427b81a79a5a1de79f14d2261059fb098b22227f))
+* **ID Austria:** Remove constraint on any version ([#2526](https://github.com/ReVanced/revanced-patches/issues/2526)) ([de2cb88](https://github.com/ReVanced/revanced-patches/commit/de2cb886169b3963b9ed70154bde0b7c6baaae40))
+* Move strings to resources for localization ([#2440](https://github.com/ReVanced/revanced-patches/issues/2440)) ([060ab8f](https://github.com/ReVanced/revanced-patches/commit/060ab8fbfeee212f9a93f52f4d24584f2c630047))
+* **MyFitnessPal:** Add `Hide ads` patch ([#2594](https://github.com/ReVanced/revanced-patches/issues/2594)) ([fd4b3c7](https://github.com/ReVanced/revanced-patches/commit/fd4b3c79a83f8de6256611629263d3e29e66f2c2))
+* **Photomath:** Add `Hide update popup` patch ([#2637](https://github.com/ReVanced/revanced-patches/issues/2637)) ([fbbecd3](https://github.com/ReVanced/revanced-patches/commit/fbbecd33bbc92999d79d74f0abf54d129e3ee407))
+* **Tiktok - Playback speed:** Remember playback speed ([#2506](https://github.com/ReVanced/revanced-patches/issues/2506)) ([d2970e5](https://github.com/ReVanced/revanced-patches/commit/d2970e54fbbd7e4b1ae1d354ae2d5c4bbe9336b0))
+* **YouTube - Change header:** Change to ReVanced borderless logo header by default ([#2512](https://github.com/ReVanced/revanced-patches/issues/2512)) ([75f785d](https://github.com/ReVanced/revanced-patches/commit/75f785d1ef6026cbbdf7073c10aace1b28d93a30))
+* **YouTube - Spoof app version:** Add `18.09.39` to restore library tab ([#2643](https://github.com/ReVanced/revanced-patches/issues/2643)) ([dd108ff](https://github.com/ReVanced/revanced-patches/commit/dd108ff70f54c16694624ab30d3e1085ac0c215a))
+* **YouTube:** Improve patch descriptions ([#2519](https://github.com/ReVanced/revanced-patches/issues/2519)) ([e8d1389](https://github.com/ReVanced/revanced-patches/commit/e8d1389d3367b2fb688f0b85c136c512981b4fdc))
+* **YouTube:** Support version `19.02.34` ([#2627](https://github.com/ReVanced/revanced-patches/issues/2627)) ([94e08b7](https://github.com/ReVanced/revanced-patches/commit/94e08b74ced394abf9ae7d4fe6355bfe4d0be248))
+* **YouTube:** Support version `19.03.35` ([#2640](https://github.com/ReVanced/revanced-patches/issues/2640)) ([ff08f58](https://github.com/ReVanced/revanced-patches/commit/ff08f58ac4ff4d66a8dce599caa1ce47f3366fc6))
+* **YouTube:** Support versions `18.48.39`, `18.49.37` and `19.01.34` ([#2551](https://github.com/ReVanced/revanced-patches/issues/2551)) ([a938e73](https://github.com/ReVanced/revanced-patches/commit/a938e736fa2aed1792cfdce5656efa15d0791d71))
+
+
+### BREAKING CHANGES
+
+* **Photomath:** Some packages have changed locations.
+* Various APIs have been changed.
+* Various public APIs have changed names and packages or were removed entirely
+
+# [4.0.0-dev.15](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.14...v4.0.0-dev.15) (2024-01-27)
+
+
+### Features
+
+* **Photomath:** Add `Hide update popup` patch ([#2637](https://github.com/ReVanced/revanced-patches/issues/2637)) ([fbbecd3](https://github.com/ReVanced/revanced-patches/commit/fbbecd33bbc92999d79d74f0abf54d129e3ee407))
+
+
+### BREAKING CHANGES
+
+* **Photomath:** Some packages have changed locations.
+
+# [4.0.0-dev.14](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.13...v4.0.0-dev.14) (2024-01-27)
+
+
+### Features
+
+* **YouTube - Spoof app version:** Add `18.09.39` to restore library tab ([#2643](https://github.com/ReVanced/revanced-patches/issues/2643)) ([dd108ff](https://github.com/ReVanced/revanced-patches/commit/dd108ff70f54c16694624ab30d3e1085ac0c215a))
+
+# [4.0.0-dev.13](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.12...v4.0.0-dev.13) (2024-01-27)
+
+
+### Features
+
+* Move strings to resources for localization ([#2440](https://github.com/ReVanced/revanced-patches/issues/2440)) ([060ab8f](https://github.com/ReVanced/revanced-patches/commit/060ab8fbfeee212f9a93f52f4d24584f2c630047))
+
+
+### BREAKING CHANGES
+
+* Various APIs have been changed.
+
+# [4.0.0-dev.12](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.11...v4.0.0-dev.12) (2024-01-24)
+
+
+### Features
+
+* **YouTube:** Support version `19.03.35` ([#2640](https://github.com/ReVanced/revanced-patches/issues/2640)) ([ff08f58](https://github.com/ReVanced/revanced-patches/commit/ff08f58ac4ff4d66a8dce599caa1ce47f3366fc6))
+
+# [4.0.0-dev.11](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.10...v4.0.0-dev.11) (2024-01-17)
+
+
+### Features
+
+* **YouTube:** Support version `19.02.34` ([#2627](https://github.com/ReVanced/revanced-patches/issues/2627)) ([94e08b7](https://github.com/ReVanced/revanced-patches/commit/94e08b74ced394abf9ae7d4fe6355bfe4d0be248))
+
+# [4.0.0-dev.10](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.9...v4.0.0-dev.10) (2024-01-16)
+
+
+### Features
+
+* **YouTube:** Support versions `18.48.39`, `18.49.37` and `19.01.34` ([#2551](https://github.com/ReVanced/revanced-patches/issues/2551)) ([a938e73](https://github.com/ReVanced/revanced-patches/commit/a938e736fa2aed1792cfdce5656efa15d0791d71))
+
+# [4.0.0-dev.9](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.8...v4.0.0-dev.9) (2024-01-11)
+
+
+### Bug Fixes
+
+* **YouTube - Enable slide to seek:** Change patch default to excluded and add description disclaimer ([#2610](https://github.com/ReVanced/revanced-patches/issues/2610)) ([2fdc4c2](https://github.com/ReVanced/revanced-patches/commit/2fdc4c23b5f39153ad71071359274c39129d691f))
+
+# [4.0.0-dev.8](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.7...v4.0.0-dev.8) (2024-01-10)
+
+
+### Bug Fixes
+
+* **YouTube:** Shorten setting titles to fit on screen ([#2579](https://github.com/ReVanced/revanced-patches/issues/2579)) ([b2a5dd3](https://github.com/ReVanced/revanced-patches/commit/b2a5dd3efc39ae8a42159858b9c00b5b2f8655a4))
+
+# [4.0.0-dev.7](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.6...v4.0.0-dev.7) (2024-01-10)
+
+
+### Bug Fixes
+
+* Use new integrations patch path ([51e2f3b](https://github.com/ReVanced/revanced-patches/commit/51e2f3b476b49460e2f3fc2b5f302a3a72d7963f))
+
+# [4.0.0-dev.6](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.5...v4.0.0-dev.6) (2024-01-09)
+
+
+### Features
+
+* **Tiktok - Playback speed:** Remember playback speed ([#2506](https://github.com/ReVanced/revanced-patches/issues/2506)) ([d2970e5](https://github.com/ReVanced/revanced-patches/commit/d2970e54fbbd7e4b1ae1d354ae2d5c4bbe9336b0))
+
+# [4.0.0-dev.5](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.4...v4.0.0-dev.5) (2024-01-09)
+
+
+### Bug Fixes
+
+* **YouTube - Change header:** Improve patch descriptions ([#2581](https://github.com/ReVanced/revanced-patches/issues/2581)) ([43a5677](https://github.com/ReVanced/revanced-patches/commit/43a5677397380f14a049ae95532fd5096b94c938))
+
+# [4.0.0-dev.4](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.3...v4.0.0-dev.4) (2024-01-09)
+
+
+### Features
+
+* **MyFitnessPal:** Add `Hide ads` patch ([#2594](https://github.com/ReVanced/revanced-patches/issues/2594)) ([fd4b3c7](https://github.com/ReVanced/revanced-patches/commit/fd4b3c79a83f8de6256611629263d3e29e66f2c2))
+
+# [4.0.0-dev.3](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.2...v4.0.0-dev.3) (2024-01-09)
+
+
+### Features
+
+* **Change package name:** Mention caveat of the patch in the description ([427b81a](https://github.com/ReVanced/revanced-patches/commit/427b81a79a5a1de79f14d2261059fb098b22227f))
+
 # [4.0.0-dev.2](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.1...v4.0.0-dev.2) (2024-01-02)
 
 

@@ -1,7 +1,5 @@
 package app.revanced.patches.youtube.layout.theme
 
-import app.revanced.util.exception
-import app.revanced.util.indexOfFirstWideLiteralInstructionValue
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
@@ -9,12 +7,14 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patcher.patch.options.PatchOption.PatchExtensions.stringPatchOption
-import app.revanced.patches.shared.settings.preference.impl.StringResource
-import app.revanced.patches.shared.settings.preference.impl.SwitchPreference
+import app.revanced.patches.all.misc.resources.AddResourcesPatch
+import app.revanced.patches.shared.misc.settings.preference.SwitchPreference
 import app.revanced.patches.youtube.layout.seekbar.SeekbarColorBytecodePatch
 import app.revanced.patches.youtube.layout.theme.fingerprints.UseGradientLoadingScreenFingerprint
 import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
 import app.revanced.patches.youtube.misc.settings.SettingsPatch
+import app.revanced.util.exception
+import app.revanced.util.indexOfFirstWideLiteralInstructionValue
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 
 @Patch(
@@ -25,7 +25,8 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
         SeekbarColorBytecodePatch::class,
         ThemeResourcePatch::class,
         IntegrationsPatch::class,
-        SettingsPatch::class
+        SettingsPatch::class,
+        AddResourcesPatch::class
     ],
     compatiblePackages = [
         CompatiblePackage(
@@ -35,8 +36,14 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
                 "18.38.44",
                 "18.43.45",
                 "18.44.41",
-                "18.45.41",
-                "18.45.43"
+                "18.45.43",
+                "18.48.39",
+                "18.49.37",
+                "19.01.34",
+                "19.02.39",
+                "19.03.35",
+                "19.03.36",
+                "19.04.37"
             ]
         )
     ]
@@ -91,19 +98,10 @@ object ThemeBytecodePatch : BytecodePatch(
     )
 
     override fun execute(context: BytecodeContext) {
-        SettingsPatch.PreferenceScreen.LAYOUT.addPreferences(
-            SwitchPreference(
-                "revanced_gradient_loading_screen",
-                StringResource("revanced_gradient_loading_screen_title", "Enable gradient loading screen"),
-                StringResource(
-                    "revanced_gradient_loading_screen_summary_on",
-                    "Loading screen will have a gradient background"
-                ),
-                StringResource(
-                    "revanced_gradient_loading_screen_summary_off",
-                    "Loading screen will have a solid background"
-                ),
-            )
+        AddResourcesPatch(this::class)
+
+        SettingsPatch.PreferenceScreen.GENERAL_LAYOUT.addPreferences(
+            SwitchPreference("revanced_gradient_loading_screen")
         )
 
         UseGradientLoadingScreenFingerprint.result?.mutableMethod?.apply {

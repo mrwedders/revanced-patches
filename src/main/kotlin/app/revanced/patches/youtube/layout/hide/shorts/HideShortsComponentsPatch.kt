@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patches.shared.mapping.misc.ResourceMappingPatch
+import app.revanced.patches.shared.misc.mapping.ResourceMappingPatch
 import app.revanced.patches.youtube.layout.hide.shorts.fingerprints.*
 import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
 import app.revanced.patches.youtube.misc.litho.filter.LithoFilterPatch
@@ -35,8 +35,14 @@ import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
                 "18.38.44",
                 "18.43.45",
                 "18.44.41",
-                "18.45.41",
-                "18.45.43"
+                "18.45.43",
+                "18.48.39",
+                "18.49.37",
+                "19.01.34",
+                "19.02.39",
+                "19.03.35",
+                "19.03.36",
+                "19.04.37"
             ]
         )
     ]
@@ -56,6 +62,8 @@ object HideShortsComponentsPatch : BytecodePatch(
     override fun execute(context: BytecodeContext) {
         // region Hide the Shorts shelf.
 
+        // This patch point is not present in 19.03.x and greater.
+        // If 19.02.x and lower is dropped, then this section of code and the fingerprint should be removed.
         ReelConstructorFingerprint.result?.let {
             it.mutableMethod.apply {
                 val insertIndex = it.scanResult.patternScanResult!!.startIndex + 2
@@ -68,7 +76,7 @@ object HideShortsComponentsPatch : BytecodePatch(
                     "hideShortsShelf"
                 )
             }
-        } ?: throw ReelConstructorFingerprint.exception
+        } // Do not throw an exception if not resolved.
 
         // endregion
 
